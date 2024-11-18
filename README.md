@@ -11,5 +11,9 @@ This project integrates with the [ClinicalTrials.gov API](https://clinicaltrials
 
 ## Installation
 1. Clone the repository:
-   ```bash
    git clone https://github.com/yourusername/your-repo-name.git
+2. Dependencies
+   pip install -r requirements.txt
+3. Setup environment
+    create .env file containing:
+    API_KEY=your_api_key_here
