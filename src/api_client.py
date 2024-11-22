@@ -1,7 +1,7 @@
 import requests
 import pandas as pd
 
-BASE_URL = "https://clinicaltrials.gov/data-api/api/v1/studies"
+BASE_URL = "https://clinicaltrials.gov/api/v2/studies?format=json&query.id="
 
 def fetch_study_info(study_id):
     """
